@@ -1,6 +1,7 @@
 import { postData } from '../services/requests';
 
 const forms = () => {
+    console.log('forms');
     const form = document.querySelectorAll('.form');
     const inputs = document.querySelectorAll('.input');
     const upload = document.querySelectorAll('[name=upload]');
