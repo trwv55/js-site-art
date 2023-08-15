@@ -16,6 +16,8 @@ const filter = () => {
         markGuy = wrapper.querySelectorAll('.guy'),
         no = document.querySelector('.portfolio-no');
 
+    console.log(markGirl);
+
     const typeFilter = (markType) => {
         markAll.forEach((mark) => {
             mark.style.display = 'none';
